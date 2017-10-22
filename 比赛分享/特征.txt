@@ -4,7 +4,7 @@
 			终点值  x_end
 			最大值  x_max
 			最小值	x_min
-			极差	x_range
+			极差	x_ptp
 			均值	x_mean
 			标准差	x_std
 			离散系数x_cv
