@@ -1,0 +1,297 @@
+一 坐标特征
+	x坐标	
+			起始值	x_start
+			终点值  x_end
+			最大值  x_max
+			最小值	x_min
+			极差	x_range
+			均值	x_mean
+			标准差	x_std
+			离散系数x_cv
+			四分位数x_Q1 Q2 Q3
+			四分差  x_interRan
+			无偏偏度x_skew
+			无偏峰度x_kurt
+			
+	y坐标	
+			起始值	y_start
+			终点值  y_end
+			最大值  y_max
+			最小值	y_min
+			极差	y_ptp
+			均值	y_mean
+			标准差	y_std
+			离散系数y_cv
+			四分位数y_Q1 Q2 Q3
+			四分差  y_interRan
+			无偏偏度y_skew
+			无偏峰度y_kurt
+	
+	目标点  
+			x坐标	target_x
+			y坐标	target_y
+			
+
+二 距离特征	
+	个点与目标点距离
+			起始值	dist_target_start
+			终点值  dist_target_end
+			最大值  dist_target_max
+			最小值	dist_target_min
+			极差	dist_target_ptp
+			均值	dist_target_mean
+			离散系数dist_target_cv
+			标准差	dist_target_std
+			四分位数dist_target_Q1 Q2 Q3
+			四分差  dist_target_interRan
+			无偏偏度dist_target_skew
+			无偏峰度dist_target_kurt
+				
+	x与目标点x距离
+			起始值	dist_x_target_start
+			终点值  dist_x_target_end
+			最大值  dist_x_target_max
+			最小值	dist_x_target_min
+			极差	dist_x_target_range
+			均值	dist_x_target_mean
+			离散系数dist_x_target_cv
+			标准差	dist_x_target_std
+			四分位数dist_x_target_Q1 Q2 Q3
+			四分差  dist_x_target_interRan
+			无偏偏度dist_x_target_skew
+			无偏峰度dist_x_target_kurt
+				
+	y与目标点y距离
+			起始值	dist_y_target_start
+			终点值  dist_y_target_end
+			最大值  dist_y_target_max
+			最小值	dist_y_target_min
+			极差	dist_y_target_range
+			均值	dist_y_target_mean
+			离散系数dist_y_target_cv
+			标准差	dist_y_target_std
+			四分位数dist_y_target_Q1 Q2 Q3
+			四分差  dist_y_target_interRan
+			无偏偏度dist_y_target_skew
+			无偏峰度dist_y_target_kurt
+
+ 差分特征
+	两点差分	
+			起始值	diff_start
+			终点值  diff_end
+			最大值  diff_max
+			最小值	diff_min
+			极差	diff_range
+			均值	diff_mean
+			标准差	diff_std
+			离散系数diff_cv
+			四分位数diff_Q1 Q2 Q3
+			四分差  diff_interRan
+			无偏偏度diff_skew
+			无偏峰度diff_kurt	
+				
+	x坐标差分	
+			起始值	diff_x_start
+			终点值  diff_x_end
+			最大值  diff_x_max
+			最小值	diff_x_min
+			极差	diff_x_range
+			均值	diff_x_mean
+			标准差	diff_x_std
+			离散系数diff_x_cv
+			四分位数diff_x_Q1 Q2 Q3
+			四分差  diff_x_interRan
+			无偏偏度diff_x_skew
+			无偏峰度diff_x_kurt	
+				
+	y坐标差分	
+			起始值	diff_y_start
+			终点值  diff_y_end
+			最大值  diff_y_max
+			最小值	diff_y_min
+			极差	diff_y_range
+			均值	diff_y_mean
+			标准差	diff_y_std
+			离散系数diff_y_cv
+			四分位数diff_y_Q1 Q2 Q3
+			四分差  diff_y_interRan
+			无偏偏度diff_y_skew
+			无偏峰度diff_y_kurt			
+
+三 时间特征
+		时间	
+			起始值	t_start
+			终点值  t_end
+			最大值  t_max
+			最小值	t_min
+			极差	t_range
+			均值	t_mean
+			标准差	t_std
+			离散系数t_cv
+			四分位数t_Q1 Q2 Q3
+			四分差  t_interRan
+			无偏偏度t_skew
+			无偏峰度t_kurt
+				
+		时间差分
+			起始值	t_diff_start
+			终点值  t_diff_end
+			最大值  t_diff_max
+			最小值	t_diff_min
+			极差	t_diff_range
+			均值	t_diff_mean
+			标准差	t_diff_std
+			离散系数t_diff_cv
+			四分位数t_diff_Q1 Q2 Q3
+			四分差  t_diff_interRan
+			无偏偏度t_diff_skew
+			无偏峰度t_diff_kurt
+				
+四 速度特征
+		速度
+			起始值	v_start
+			终点值  v_end
+			最大值  v_max
+			最小值	v_min
+			极差	v_range
+			均值	v_mean
+			标准差	v_std
+			离散系数v_cv
+			四分位数v_Q1 Q2 Q3
+			四分差  v_interRan
+			无偏偏度v_skew
+			无偏峰度v_kurt
+		
+		x速度
+			起始值	v_x_start
+			终点值  v_x_end
+			最大值  v_x_max
+			最小值	v_x_min
+			极差	v_x_range
+			均值	v_x_mean
+			标准差	v_x_std
+			离散系数v_x_cv
+			四分位数v_x_Q1 Q2 Q3
+			四分差  v_x_interRan
+			无偏偏度v_x_skew
+			无偏峰度v_x_kurt
+				
+		y速度
+			起始值	v_y_start
+			终点值  v_y_end
+			最大值  v_y_max
+			最小值	v_y_min
+			极差	v_y_range
+			均值	v_y_mean
+			标准差	v_y_std
+			离散系数v_y_cv
+			四分位数v_y_Q1 Q2 Q3
+			四分差  v_y_interRan
+			无偏偏度v_y_skew
+			无偏峰度v_y_kurt
+
+--- 速度差分特征
+		速度差分
+			起始值	v_diff_start
+			终点值  v_diff_end
+			最大值  v_diff_max
+			最小值	v_diff_min
+			极差	v_diff_range
+			均值	v_diff_mean
+			标准差	v_diff_std
+			离散系数v_diff_cv
+			四分位数v_diff_Q1 Q2 Q3
+			四分差	v_diff_interRan
+			无偏偏度v_diff_skew
+			无偏峰度v_diff_kurt
+		
+		x速度差分
+			起始值	v_diff_x_start
+			终点值  v_diff_x_end
+			最大值  v_diff_x_max
+			最小值	v_diff_x_min
+			极差	v_diff_x_range
+			均值	v_diff_x_mean
+			标准差	v_diff_x_std
+			离散系数v_diff_x_cv
+			四分位数v_diff_x_Q1 Q2 Q3
+			四分差	v_diff_x_interRan
+			无偏偏度v_diff_x_skew
+			无偏峰度v_diff_x_kurt
+				
+		y速度差分
+			起始值	v_diff_y_start
+			终点值  v_diff_y_end
+			最大值  v_diff_y_max
+			最小值	v_diff_y_min
+			极差	v_diff_y_range
+			均值	v_diff_y_mean
+			标准差	v_diff_y_std
+			离散系数v_diff_y_cv
+			四分位数v_diff_y_Q1 Q2 Q3
+			四分差	v_diff_y_interRan
+			无偏偏度v_diff_y_skew
+			无偏峰度v_diff_y_kurt				
+
+五 加速度特征
+		加速度
+			起始值	a_start
+			终点值  a_end
+			最大值  a_max
+			最小值	a_min
+			极差	a_range
+			均值	a_mean
+			标准差	a_std
+			离散系数a_cv
+			四分位数a_Q1 Q2 Q3
+			四分差	a_interRan
+			无偏偏度a_skew
+			无偏峰度a_kurt
+		
+		x加速度
+			起始值	a_x_start
+			终点值  a_x_end
+			最大值  a_x_max
+			最小值	a_x_min
+			极差	a_x_range
+			均值	a_x_mean
+			标准差	a_x_std
+			离散系数a_x_cv
+			四分位数a_x_Q1 Q2 Q3
+			四分差	a_x_interRan
+			无偏偏度a_x_skew
+			无偏峰度a_x_kurt
+				
+		y加速度
+			起始值	a_y_start
+			终点值  a_y_end
+			最大值  a_y_max
+			最小值	a_y_min
+			极差	a_y_range
+			均值	a_y_mean
+			标准差	a_y_std
+			离散系数a_y_cv
+			四分位数a_y_Q1 Q2 Q3
+			四分差	a_y_interRan
+			无偏偏度a_y_skew
+			无偏峰度a_y_kurt
+				
+六 统计or其他特征
+   这部分特征后续可能添加
+   
+	轨迹的点数		points_count
+					x_back_num	    feature['x_back_num'] = min( (one['diff_x'] > 0).sum(), (one['diff_x'] < 0).sum())
+					y_back_num
+	差分为0，停顿	x_equal_0
+					y_equal_0
+	相同的点		equal_0
+	重复点的个数	re_point_count
+	
+	离目标点最近的点target_near_x
+					target_near_y
+					
+	角度		    angle      大多数人用鼠标都有右上偏移的趋势
+	
+	速度趋势		v_tread		按理轨迹的速度先大后小 这里取起始点  目标点对应轨迹的点 
+								这两点的中间点 三点的速度比值 
+								没想到合适的方式表达特征
